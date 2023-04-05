@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ES Examination</title>
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  </head>
+  <style>
+    body{
+        background-color: grey;
+    }
+    
+    .box {
+    width: 500px;
+    height: 181px;
+    }
+    .border{
+        padding: 10px;
+        margin: 10px;
+        border-radius: 9px;
+        background-color: rgba(255,255,255,0.13);
+        backdrop-filter: blur(10px);
+        border: 2px solid rgba(255,255,255,0.1);
+        box-shadow: 0 0 40px rgba(8,7,16,0.6);
+
+
+    }
+    .txt-feild {
+        border-radius: 10px;
+        padding: 5px;
+        margin: 8px;
+        background-color: rgba(245, 236, 236, 0.459);
+        backdrop-filter: blur(10px);
+        border: 2px solid rgba(255,255,255,0.1);
+        box-shadow: 0 0 40px rgba(8,7,16,0.6);
+        
+    }
+    .bt{
+        background-color:rgba(8, 8, 8, 0.673);
+        border: rgba(8, 8, 8, 0.673);
+        
+    }
+    .bt:hover{
+        background-color: rgba(142, 39, 227, 0.771);
+    }
+    .bt1{
+        background-color: black;
+        border: black;
+    }
+    .bt1:hover{
+        background-color: rgba(142, 39, 227, 0.771);
+    }
+    .bt2{
+        margin: 9px;
+        background-color: black;
+        border: black;
+        box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    }
+    .bt2:hover{
+        background-color: rgba(142, 39, 227, 0.771);
+    }
+    
+  </style>
+<body  style="background-color: rgb(157, 95, 163);">
+
+    <nav class="navbar  navbar-expand-lg navbar-light shadow-5-strong">
+        <div class="container-fluid">
+          <a class="navbar-brand " href="/index.html">
+            <h1 style="font-weight: bold; color: rgba(240, 248, 255, 0.726);">EXAM PORTAL</h1>
+        </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll justify-content-center" style="--bs-scroll-height: 200px; margin-left: 10px;">
+              <li class="nav-item">
+                <a  style="margin: 3px;" class=" btn btn-outline-info text-white" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item ">
+                <a  style="margin:3px ;"class=" btn btn-outline-info text-white" href="./exam.html">e-Exam</a>
+              </li>
+              
+              <li class="nav-item">
+                <a style="margin: 3px;" class=" active btn btn-outline-info text-white " href="/openforum.html">Open Forum</a>
+              </li>
+              <li class="nav-item ">
+                <a  style="margin: 3px;"class=" btn btn-outline-info text-white" href="/profile.html">My Wall</a>
+              </li>
+              <li class="nav-item">
+                <a  style="margin: 3px;" class=" btn btn-outline-info text-white" href="/Repository.html">e-Repository</a>
+              </li>
+           
+            </ul>
+            <form class="d-flex" role="search">
+                
+                <a  style="margin: 3px;" class="btn btn-outline-primary text-white disabled" href="#" desaible>[ USERNAME ]</a>
+                <!-- <button class="btn btn-primary btn-lg" href="./e-Exam.html" type="submit">Login</button> -->
+                <a style="margin: 3px;" class="btn btn-primary btn-lg" href="/home_bootstrap.html">Logout</a>
+            </form>
+            
+          </div>
+        </div>
+      </nav>
+
+   <div class="container">
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="">
+                <textarea  class=" txt-feild " name="review" id="feild" cols="70" rows="10" placeholder="Hey! Any Query!!"></textarea>
+            </div>
+            <button type="button" class="btn btn-primary bt2">Submit</button>
+        </div>
+        <div class="col-lg-6 ">
+            <div class="border">
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit reprehenderit, culpa nemo earum non voluptatum. Cupiditate nemo magnam, debitis eius quis dicta impedit, expedita doloribus deleniti eaque tempora molestiae molestias?</p>
+                <button class="btn btn-primary bt" style="border-radius: 10px;">User</button>
+                <button class="btn btn-primary bt1"  style="border-radius: 40px;">Reply</button>
+                
+            </div>
+            <div class="border">
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit reprehenderit, culpa nemo earum non voluptatum. Cupiditate nemo magnam, debitis eius quis dicta impedit, expedita doloribus deleniti eaque tempora molestiae molestias?</p>
+                <button class="btn btn-primary bt" style="border-radius: 10px;">User</button>
+                <button class="btn btn-primary bt1"  style="border-radius: 40px;">Reply</button>
+                
+            </div>
+            <div class="border">
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit reprehenderit, culpa nemo earum non voluptatum. Cupiditate nemo magnam, debitis eius quis dicta impedit, expedita doloribus deleniti eaque tempora molestiae molestias?</p>
+                <button class="btn btn-primary bt" style="border-radius: 10px;">User</button>
+                <button class="btn btn-primary bt1"  style="border-radius: 40px;">Reply</button>
+                
+            </div>
+            <div class="border">
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit reprehenderit, culpa nemo earum non voluptatum. Cupiditate nemo magnam, debitis eius quis dicta impedit, expedita doloribus deleniti eaque tempora molestiae molestias?</p>
+                <button class="btn btn-primary bt" style="border-radius: 10px;">User</button>
+                <button class="btn btn-primary bt1"  style="border-radius: 40px;">Reply</button>
+                
+            </div>
+            <div class="border">
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit reprehenderit, culpa nemo earum non voluptatum. Cupiditate nemo magnam, debitis eius quis dicta impedit, expedita doloribus deleniti eaque tempora molestiae molestias?</p>
+                <button class="btn btn-primary bt" style="border-radius: 10px;">User</button>
+                <button class="btn btn-primary bt1"  style="border-radius: 40px;">Reply</button>
+                
+            </div>
+            
+           
+            
+        </div>
+        
+        
+    </div>
+   </div>
+   
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>

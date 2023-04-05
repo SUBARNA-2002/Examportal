@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ES Examination</title>
+  <!-- <link rel="stylesheet" href="./style1.css"> -->
+  <link rel="stylesheet" href="./style1.css">
+
+  <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+  <!-- Font Awesome CSS -->
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css'>
+  <style>
+      body {
+          background: #659389;
+          /* fallback for old browsers */
+          /* background: -webkit-linear-gradient(to right, #4ca2cd, #cec93b); */
+          /* Chrome 10-25, Safari 5.1-6 */
+          background: linear-gradient(to right, #2e3d65, #cf5233);
+          /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+          padding: 0;
+          margin: 0;
+          font-family: 'Lato', sans-serif;
+          color: #000;
+      }
+
+      .student-profile .card {
+          border-radius: 10px;
+      }
+
+      .student-profile .card .card-header .profile_img {
+          width: 150px;
+          height: 150px;
+          object-fit: cover;
+          margin: 10px auto;
+          border: 5px solid #c4bfb6;
+          border-radius: 50%;
+      }
+
+      .student-profile .card h3 {
+          font-size: 20px;
+          font-weight: 700;
+      }
+
+      .student-profile .card p {
+          font-size: 16px;
+          color: #000;
+      }
+
+      .student-profile .table th,
+      .student-profile .table td {
+          font-size: 14px;
+          padding: 5px 10px;
+          color: #000;
+      }
+      .bx{
+        background-color: rgba(245, 236, 236, 0.459);
+        backdrop-filter: blur(10px);
+        border: 2px solid rgba(255,255,255,0.1);
+        box-shadow: 0 0 40px rgba(8,7,16,0.6);
+      }
+  </style>
+</head>
+
+<body  >
+   <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong">
+    <div class="container-fluid">
+      <a class="navbar-brand " href="/index.html">
+        <h1 style="font-weight: bold; color: rgba(240, 248, 255, 0.726);">EXAM PORTAL</h1>
+    </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll justify-content-center" style="--bs-scroll-height: 200px; margin-left: 10px;">
+          <li class="nav-item">
+            <a  style="margin: 3px;" class=" btn btn-outline-info text-white" href="/index.html">Home</a>
+          </li>
+          <li class="nav-item ">
+            <a  style="margin:3px ;"class=" btn btn-outline-info text-white" href="./exam.html">e-Exam</a>
+          </li>
+          
+          <li class="nav-item">
+            <a style="margin: 3px;" class="  btn btn-outline-info text-white " href="/openforum.html">Open Forum</a>
+          </li>
+          <li class="nav-item ">
+            <a  style="margin: 3px;"class=" active btn btn-outline-info text-white" href="/profile.html">My Wall</a>
+          </li>
+          <li class="nav-item">
+            <a  style="margin: 3px;" class=" btn btn-outline-info text-white" href="/Repository.html">e-Repository</a>
+          </li>
+            </ul>
+        <form class="d-flex" role="search">
+
+          <a style="margin: 3px;" class="btn btn-outline-primary text-black disabled" href="#" desaible>[
+            USERNAME ]</a>
+          <!-- <button class="btn btn-primary btn-lg" href="./e-Exam.html" type="submit">Login</button> -->
+          <a style="margin: 3px;" class="btn btn-primary btn-lg" href="/home_bootstrap.html">Logout</a>
+        </form>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- image -->
+  <br>
+
+
+  <div class="student-profile py-4 ">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="card shadow-sm bx">
+                    <div class="card-header bg-transparent text-center">
+                        <img class="profile_img" src="/assets/profile.jpg"
+                            alt="student dp">
+                        <h3>SUBARNA KESHARI SUTAR</h3>
+                    </div>
+                    <div class="card-body">
+                        <p class="mb-0"><strong class="pr-1">Student ID:</strong>20BCEE07</p>
+                        <p class="mb-0"><strong class="pr-1">Year:</strong>3rd </p>
+                        <p class="mb-0"><strong class="pr-1">Section:</strong>A</p>
+                        <p class="mb-0"><strong class="pr-1">Batch:</strong>20-24 </p>
+                    </div>
+                    <div class="row">
+                      <div class="d-flex justify-content-center">
+
+                        <a style="margin: 3px;" class="btn btn-primary btn-lg" href="#">Edit</a>
+                        <a style="margin: 3px;" class="btn btn-outline-dark btn-lg text-white" href="#">Save</a>
+
+                      </div>
+                      <!-- <div class="col-lg-2">
+
+                        <a style="margin: 3px;" class="btn btn-primary btn-lg" href="#">Logout</a>
+                      </div> -->
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="card shadow-sm bx">
+                    <div class="card-header bg-transparent border-0">
+                        <h3 class="mb-0"><i class="far fa-clone pr-1"></i>General Information</h3>
+                    </div>
+                    <div class="card-body pt-0">
+                        <table class="table table-bordered">
+                            <tr>
+                                <th width="30%">Roll</th>
+                                <td width="2%">:</td>
+                                <td>125</td>
+                            </tr>
+                            <tr>
+                                <th width="30%">Academic Year </th>
+                                <td width="2%">:</td>
+                                <td>2020</td>
+                            </tr>
+                            <tr>
+                                <th width="30%">Gender</th>
+                                <td width="2%">:</td>
+                                <td>Male</td>
+                            </tr>
+                            <tr>
+                                <th width="30%">Religion</th>
+                                <td width="2%">:</td>
+                                <td>Group</td>
+                            </tr>
+                            <tr>
+                                <th width="30%">blood</th>
+                                <td width="2%">:</td>
+                                <td>B+</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div style="height: 26px"></div>
+                <div class="card shadow-sm bx">
+                    <div class="card-header bg-transparent border-0">
+                        <h3 class="mb-0"><i class="far fa-clone pr-1"></i>Other Information</h3>
+                    </div>
+                    <div class="card-body pt-0">
+                        <p >Front-end developers are the coders of all the user-facing elements of websites, web applications, and mobile applications. They interpret the needs of the company and its customers and create easy-to-use, interactive web apps. Front-end developers must be adept at both programming languages and design techniques.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+  <!-- footer -->
+ 
+
+
+
+
+  <script src="https://kit.fontawesome.com/3442acf2df.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
